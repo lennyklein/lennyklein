@@ -6,9 +6,20 @@ Willkommen auf meinem GitHub-Profil! Ich bin Softwareentwickler mit Schwerpunkt 
 
 ### 💻 Tech-Stack & Expertise
 
-* **Sprachen:** Python, JavaScript, Lua, Java, HTML5 / CSS3
-* **Frameworks & Web:** Flask, REST-APIs, Responsive Design
-* **Tools & Infrastructure:** Git, GitHub, Linux, VS Code, Database Management
+**Languages:**
+<p>
+  <img src="https://skillicons.dev/icons?i=py,js,lua,java,html,css&theme=dark" />
+</p>
+
+**Frameworks & Web:**
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs&theme=dark" />
+</p>
+
+**Tools & Infrastructure:**
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,docker,nginx&theme=dark" />
+</p>
 
 ---
 
@@ -22,13 +33,6 @@ Willkommen auf meinem GitHub-Profil! Ich bin Softwareentwickler mit Schwerpunkt 
 #### 🛠️ Custom Backend- & Game-Automation
 * **Beschreibung:** Entwicklung diverser serverseitiger Systeme, Schnittstellen und Automatisierungsskripte (u. a. im FiveM-/Gaming-Umfeld).
 * **Fokus:** Stabile Systemlogik, Datenbankanbindungen und effiziente Ressourcen-Nutzung.
-
----
-
-### 📊 GitHub Activity
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=lennyklein&show_icons=true&theme=tokyonight&hide_border=true" alt="Lenny's GitHub Stats" />
-</p>
 
 ---
 
