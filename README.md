@@ -33,6 +33,11 @@ Willkommen auf meinem GitHub-Profil! Ich bin Softwareentwickler mit Schwerpunkt 
 * **Fokus:** Responsive Webdesign, performantes Backend, optimierte Benutzerführung und einfache Verwalbarkeit von Vereinsinhalten.
 * **Status:** *In Produktion / Proprietärer Quellcode (Private Repository).*
 
+  #### 🖥️ Homelab & Infrastructure
+* **Beschreibung:** Ein strukturiertes Open-Source-Repository für Server-Infrastrukturen, Docker-Compose-Vorlagen und Automatisierungsskripte.
+* **Fokus:** Modulares Container-Management, Nginx Reverse Proxy, Bash-Automatisierung und saubere System-Architektur.
+* **Link:** [Zum Homelab-Repository](https://github.com/lennyklein/Homelab)
+
 #### 🛠️ Custom Backend- & Game-Automation
 * **Beschreibung:** Entwicklung diverser serverseitiger Systeme, Schnittstellen und Automatisierungsskripte (u. a. im FiveM-/Gaming-Umfeld).
 * **Fokus:** Stabile Systemlogik, Datenbankanbindungen und effiziente Ressourcen-Nutzung.
