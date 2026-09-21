@@ -18,7 +18,10 @@ Willkommen auf meinem GitHub-Profil! Ich bin Softwareentwickler mit Schwerpunkt 
 
 **Tools & Infrastructure:**
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,docker,nginx&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=git,github,linux,windows,docker,nginx&theme=dark" />
+</p>
+<p>
+  <code>🗄️ ZimaOS (Homeserver & Container-Management)</code>
 </p>
 
 ---
