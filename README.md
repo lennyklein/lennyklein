@@ -49,6 +49,7 @@ Willkommen auf meinem GitHub-Profil! Ich bin Softwareentwickler mit Schwerpunkt 
 ---
 
 ### 📫 Contact & Socials
+* **Discord:** [DevHub Community Server](https://discord.gg/zZszzMDSnj)
 * **Twitch:** [lennyklein1151](https://www.twitch.tv/lennyklein1151)
 * **YouTube:** [@LENNYKLEIN1151](https://www.youtube.com/@LENNYKLEIN1151)
 * **Instagram:** [lennyklein1151_tv](https://www.instagram.com/lennyklein1151_tv/)
