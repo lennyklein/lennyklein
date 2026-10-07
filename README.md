@@ -37,7 +37,12 @@ Willkommen auf meinem GitHub-Profil! Ich bin Softwareentwickler mit Schwerpunkt 
 * **Fokus:** Responsive Webdesign, performantes Backend, optimierte Benutzerführung und einfache Verwalbarkeit von Vereinsinhalten.
 * **Status:** *In Produktion / Proprietärer Quellcode (Private Repository).*
 
-  #### 🖥️ Homelab & Infrastructure
+#### 🏛️ Vereinsassistent: Buchungssystem
+* **Beschreibung:** Ein modulares Open-Source-System zur automatisierten Verwaltung und Buchung von Vereinsressourcen, Terminen und Mitgliedern.
+* **Fokus:** Backend-Logik, strukturierte Datenverarbeitung und schlanke administrative Prozesse.
+* **Link:** [Zum Vereinsassistent-Repository](https://github.com/lennyklein/Vereinsassistent-Buchung)
+
+#### 🖥️ Homelab & Infrastructure
 * **Beschreibung:** Ein strukturiertes Open-Source-Repository für Server-Infrastrukturen, Docker-Compose-Vorlagen und Automatisierungsskripte.
 * **Fokus:** Modulares Container-Management, Nginx Reverse Proxy, Bash-Automatisierung und saubere System-Architektur.
 * **Link:** [Zum Homelab-Repository](https://github.com/lennyklein/Homelab)
@@ -55,4 +60,4 @@ Willkommen auf meinem GitHub-Profil! Ich bin Softwareentwickler mit Schwerpunkt 
 * **Instagram:** [lennyklein1151_tv](https://www.instagram.com/lennyklein1151_tv/)
 
 ---
-*Hinweis: Aus Datenschutz- und Lizenzgründen sind Kunden- sowie Vereinsprojekte in privaten Repositories untergebracht.*
+*Hinweis: Aus Datenschutz- und Lizenzgründen sind Kunden- sowie ausgewählte Vereinsprojekte in privaten Repositories untergebracht.*
