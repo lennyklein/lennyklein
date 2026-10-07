@@ -1,28 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" width="100%" height="100%">
   <defs>
+    <!-- Hintergrund-Verlauf -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f172a" />
       <stop offset="100%" stop-color="#1e293b" />
     </linearGradient>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    
+    <!-- Text-Farbverlauf (etwas langsamer, startet leicht verzögert nach dem Pfeil) -->
+    <linearGradient id="textAnimGrad" x1="-100%" y1="0%" x2="0%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#818cf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#38bdf8" />
+      
+      <animate attributeName="x1" values="-100%; 100%; 200%" dur="7s" begin="0.8s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0%; 200%; 300%" dur="7s" begin="0.8s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Pfeil-Farbverlauf (startet sofort und ist der Vorreiter) -->
+    <linearGradient id="arrowAnimGrad" x1="-100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#38bdf8" />
+      
+      <animate attributeName="x1" values="-100%; 100%; 200%" dur="7s" begin="0s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0%; 200%; 300%" dur="7s" begin="0s" repeatCount="indefinite" />
     </linearGradient>
   </defs>
   
   <!-- Hintergrund mit abgerundeten Ecken -->
   <rect width="500" height="150" rx="16" fill="url(#bgGrad)" />
   
-  <!-- Tech-Akzent: Terminal-Klammern / Admin-Symbol -->
-  <text x="35" y="95" font-family="monospace" font-size="65" font-weight="bold" fill="#38bdf8">&gt;</text>
+  <!-- Tech-Akzent: Terminal-Klammern (Pfeil wird zuerst lila) -->
+  <text x="35" y="95" font-family="monospace" font-size="65" font-weight="bold" fill="url(#arrowAnimGrad)">&gt;</text>
   <text x="75" y="95" font-family="monospace" font-size="65" font-weight="bold" fill="#334155">_</text>
   
-  <!-- Dein Name -->
-  <text x="120" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="42" font-weight="800" fill="url(#textGrad)" letter-spacing="1">LENNY KLEIN</text>
+  <!-- Dein Name (folgt direkt danach im fließenden Übergang) -->
+  <text x="120" y="77" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="800" fill="url(#textAnimGrad)" letter-spacing="1">LENNY KLEIN</text>
   
-  <!-- Optimierter Untertitel: Präzise auf Backend & Automatisierung angepasst -->
-  <text x="124" y="115" font-family="monospace" font-size="14" font-weight="600" fill="#94a3b8" letter-spacing="2.5">BACKEND &amp; AUTOMATION</text>
+  <!-- Untertitel -->
+  <text x="123" y="105" font-family="monospace" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="1">Python &amp; Web Dev  •  Automatisierung &amp; Custom Scripts</text>
+  <text x="255" y="123" font-family="monospace" font-size="11" font-weight="600" fill="#38bdf8" letter-spacing="1" text-anchor="middle">Hobby-Programmierer mit Anspruch</text>
   
-  <!-- Kleiner technischer Akzentpunkt (Online/Status) -->
-  <circle cx="455" cy="40" r="6" fill="#22c55e" />
+  <!-- Kleiner technischer Akzentpunkt (Blinken) -->
+  <circle cx="455" cy="40" r="6" fill="#22c55e">
+    <animate attributeName="opacity" values="1; 0; 1" dur="1.5s" repeatCount="indefinite" />
+  </circle>
 </svg>
