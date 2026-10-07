@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.svg" alt="Lenny Klein Banner" width="100%">
+</p>
+
 # Moin, ich bin Lenny 👋
 
 Willkommen auf meinem GitHub-Profil! Ich bin Softwareentwickler mit Schwerpunkt auf **Backend-Architektur, Webentwicklung und Automatisierung**. Mein Fokus liegt auf performanten, strukturierten und praxiserprobten Lösungen – von dynamischen Webanwendungen bis hin zu maßgeschneiderten Skripten.
