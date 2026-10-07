@@ -37,10 +37,10 @@ Willkommen auf meinem GitHub-Profil! Ich bin Softwareentwickler mit Schwerpunkt 
 * **Fokus:** Responsive Webdesign, performantes Backend, optimierte Benutzerführung und einfache Verwalbarkeit von Vereinsinhalten.
 * **Status:** *In Produktion / Proprietärer Quellcode (Private Repository).*
 
-#### 💓 DocPuls: Realtime Container Monitor
+#### 💓 DockPuls: Realtime Container Monitor
 * **Beschreibung:** Ein ultra-schlanker, eleganter Echtzeit-Container-Monitor für Homelabs & ZimaOS (entwickelt mit Flask & TailwindCSS), der dir CPU, RAM und Container-Status auf einen Blick liefert.
 * **Fokus:** Minimalistisches UI, Live-Auto-Refresh und direkte Container-Steuerung (Start/Stopp/Neustart) ohne Bloatware.
-* **Link:** [Zum DocPuls-Repository](https://github.com/lennyklein/docpuls)
+* **Link:** [Zum DockPuls-Repository](https://github.com/lennyklein/docpuls)
 
 #### 🏛️ Vereinsassistent: Buchungssystem
 * **Beschreibung:** Ein modulares Open-Source-System zur automatisierten Verwaltung und Buchung von Vereinsressourcen, Terminen und Mitgliedern.
