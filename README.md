@@ -32,27 +32,36 @@ Willkommen auf meinem GitHub-Profil! Ich bin Softwareentwickler mit Schwerpunkt 
 
 ### 🚀 Ausgewählte Referenzen & Projekte
 
+
 #### 🎭 Webpräsenz: KG Schwarz-Grün die Schwätzzeer e.V.
+
 * **Beschreibung:** Vollständige Konzeption, Design und technische Umsetzung der offiziellen Vereinswebsite für einen Karnevalsverein.
 * **Fokus:** Responsive Webdesign, performantes Backend, optimierte Benutzerführung und einfache Verwalbarkeit von Vereinsinhalten.
 * **Status:** *In Produktion / Proprietärer Quellcode (Private Repository).*
 
-#### 💓 DockPuls: Realtime Container Monitor
+
+#### 💓 DockPulse: Realtime Container Monitor
+
 * **Beschreibung:** Ein ultra-schlanker, eleganter Echtzeit-Container-Monitor für Homelabs & ZimaOS (entwickelt mit Flask & TailwindCSS), der dir CPU, RAM und Container-Status auf einen Blick liefert.
 * **Fokus:** Minimalistisches UI, Live-Auto-Refresh und direkte Container-Steuerung (Start/Stopp/Neustart) ohne Bloatware.
-* **Link:** [Zum DockPuls-Repository](https://github.com/lennyklein/DockPulse)
+* **Community:** Öffentliche Entwicklung mit GitHub Issues & Discussions.
+* **Link:** [Zum DockPulse-Repository](https://github.com/lennyklein/DockPulse)
+
 
 #### 🏛️ Vereinsassistent: Buchungssystem
+
 * **Beschreibung:** Ein modulares Open-Source-System zur automatisierten Verwaltung und Buchung von Vereinsressourcen, Terminen und Mitgliedern.
 * **Fokus:** Backend-Logik, strukturierte Datenverarbeitung und schlanke administrative Prozesse.
 * **Link:** [Zum Vereinsassistent-Repository](https://github.com/lennyklein/Vereinsassistent-Buchung)
 
 #### 🖥️ Homelab & Infrastructure
+
 * **Beschreibung:** Ein strukturiertes Open-Source-Repository für Server-Infrastrukturen, Docker-Compose-Vorlagen und Automatisierungsskripte.
 * **Fokus:** Modulares Container-Management, Nginx Reverse Proxy, Bash-Automatisierung und saubere System-Architektur.
 * **Link:** [Zum Homelab-Repository](https://github.com/lennyklein/Homelab)
 
 #### 🛠️ Custom Backend- & Game-Automation
+
 * **Beschreibung:** Entwicklung diverser serverseitiger Systeme, Schnittstellen und Automatisierungsskripte (u. a. im FiveM-/Gaming-Umfeld).
 * **Fokus:** Stabile Systemlogik, Datenbankanbindungen und effiziente Ressourcen-Nutzung.
 
