@@ -11,16 +11,19 @@ Willkommen auf meinem GitHub-Profil! Ich bin Softwareentwickler mit Schwerpunkt 
 ### 💻 Tech-Stack & Expertise
 
 **Languages:**
+
 <p>
   <img src="https://skillicons.dev/icons?i=py,js,lua,java,html,css&theme=dark" />
 </p>
 
 **Frameworks & Web:**
+
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=nodejs,flask,tailwind&theme=dark" />
 </p>
 
 **Tools & Infrastructure:**
+
 <p>
   <img src="https://skillicons.dev/icons?i=git,github,linux,windows,docker,nginx&theme=dark" />
 </p>
