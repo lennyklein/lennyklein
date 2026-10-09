@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient (Deep Circle) -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0b131a" />
+      <stop offset="100%" stop-color="#020406" />
+    </radialGradient>
+    
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Outer Ring Gradient -->
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d2ff" />
+      <stop offset="100%" stop-color="#0055ff" />
+    </linearGradient>
+
+    <!-- Neon Blue Gradient -->
+    <linearGradient id="neonBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0f7ff" />
+      <stop offset="50%" stop-color="#00b4d8" />
+      <stop offset="100%" stop-color="#0077b6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rundes Basis-Icon mit Rand -->
+  <circle cx="256" cy="256" r="248" fill="url(#bgGrad)" stroke="url(#ringGrad)" stroke-width="8" />
+
+  <!-- Äußerer dekorativer Kreis -->
+  <circle cx="256" cy="256" r="230" fill="none" stroke="#00b4d8" stroke-width="2" stroke-opacity="0.3" stroke-dasharray="8 4" />
+
+  <!-- Schild & User/Profil-Symbol (für Vorstellung) -->
+  <g filter="url(#glow)" transform="translate(0, -10)">
+    <!-- Schild -->
+    <path d="M 256 100 
+             C 325 100, 355 115, 355 155 
+             C 355 230, 305 285, 256 325 
+             C 207 285, 157 230, 157 155 
+             C 157 115, 187 100, 256 100 Z" 
+          fill="#071b28" stroke="url(#neonBlue)" stroke-width="6" stroke-linejoin="round" />
+          
+    <!-- Profil / User Icon (Kopf + Schultern) -->
+    <circle cx="256" cy="175" r="32" fill="url(#neonBlue)" />
+    <path d="M 196 250 
+             C 196 215, 222 205, 256 205 
+             C 290 205, 316 215, 316 250 Z" 
+          fill="url(#neonBlue)" />
+  </g>
+
+  <!-- Typography: DEVHUB -->
+  <text x="256" y="385" 
+        fill="#ffffff" 
+        font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" 
+        font-size="50" 
+        font-weight="900" 
+        letter-spacing="6" 
+        text-anchor="middle"
+        filter="url(#glow)">DEVHUB</text>
+
+  <!-- Typography: VORSTELLUNG -->
+  <text x="256" y="425" 
+        fill="#00b4d8" 
+        font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" 
+        font-size="19" 
+        font-weight="700" 
+        letter-spacing="5" 
+        text-anchor="middle">VORSTELLUNG</text>
+</svg>
